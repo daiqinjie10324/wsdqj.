@@ -1,0 +1,77 @@
+.黄色盒子{
+    background-color: red;
+    animation: 文字 3s;
+    color:blue1;
+    text-align: center;
+    background-image: linear-gradient(0deg,rgb(255,0,0),rgb(255,165,0),rgb(255,255,0),rgb(0,255,0),rgb(0,127,255),rgb(0,0,255),rgb(139,0,255));
+}
+.黄色盒子{
+    animation-iteration-count: infinite;
+}
+p{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    border: 100px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.黄色盒{
+    width: 200px;
+    animation: 文字 3s;
+    height:200px;
+    padding:200px;
+}
+.黄色盒{
+    animation-iteration-count: infinite;
+}
+@keyframes 文字{
+   0%{ 
+    width: 200px;
+    height: 200px;
+background-color: red;
+    text-align: start;
+    background-image: linear-gradient(0deg,rgb(255,0,0),rgb(255,165,0),rgb(255,255,0),rgb(0,255,0),rgb(0,127,255),rgb(0,0,255),rgb(139,0,255));
+    }
+    50%{
+        width: 500px;
+        height: 500px;
+background-color: blue;
+    text-align: end;
+    background-image: linear-gradient(0degrgb(139,0,255),rgb(255,0,0),rgb(255,165,0),rgb(255,255,0),rgb(0,255,0),rgb(138, 192, 247),rgb(0,0,255));
+    }
+    100%{
+        width: 200px;
+    height: 200px;
+background-color: red;
+    text-align: start;
+    background-image: linear-gradient(0deg,rgb(255,0,0),rgb(255,165,0),rgb(255,255,0),rgb(0,255,0),rgb(0,127,255),rgb(0,0,255),rgb(139,0,255));
+    }
+}
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   background-color: grey;
+}
+ ul a {
+     display: block;
+     text-align: center;
+     padding: 10px;
+     text-decoration: none;
+     color: black;
+ }
+ li a:hover{
+     background-color: blue;
+     transform:translate(5px, 5px) rotate(10deg) scale(0.1) skew(5deg, 5deg);
+ }
+ li a:active{
+     background-color: brown;
+     transform:translate(10px, 10px) rotate(10deg) scale(0.1) skew(10deg, 10deg);
+ }
